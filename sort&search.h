@@ -20,7 +20,6 @@ void merge(int arr[], int lb, int mid, int ub) {
 			newArr[pointer3] = arr[pointer2];
 			pointer2++;
 		}
-		
 		pointer3++;
 	}
 	
@@ -41,8 +40,6 @@ void merge(int arr[], int lb, int mid, int ub) {
 		arr[lb] = newArr[i];
 		lb++;
 	}
-    
-    
 }
 
 void mergeSort(int arr[], int lb, int ub) {
@@ -60,5 +57,3 @@ void printArray(int arr[], int size) {
     }
     cout<<endl;
 }
-
-
